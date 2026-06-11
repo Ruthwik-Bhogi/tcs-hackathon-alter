@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+xgboost
+streamlit
+httpx
+pyyaml
+uvicorn
+fastapi
+python-dotenv
+plotly
+pydantic
