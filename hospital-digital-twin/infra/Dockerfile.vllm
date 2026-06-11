@@ -1,0 +1,4 @@
+# infra/Dockerfile.vllm
+# This is a placeholder. For ROCm, use the official vLLM/TGI ROCm image or follow vendor docs.
+# Example: FROM ghcr.io/vllm/vllm:rocm-latest
+# Expose a REST wrapper that maps to the model generation API.
