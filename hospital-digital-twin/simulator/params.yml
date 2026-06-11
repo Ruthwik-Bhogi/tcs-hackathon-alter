@@ -1,0 +1,22 @@
+seed: 42
+departments:
+  ED:
+    base_lambda: 6.0        # avg arrivals per hour
+    diurnal_amp: 0.4
+    severity_probs: {low:0.6, medium:0.3, high:0.1}
+    los: {low:2.0, medium:12.0, high:48.0} # hours (mean)
+  ICU:
+    base_lambda: 0.5
+    diurnal_amp: 0.1
+    severity_probs: {low:0.2, medium:0.5, high:0.3}
+    los: {low:24.0, medium:72.0, high:168.0}
+  Ward:
+    base_lambda: 3.0
+    diurnal_amp: 0.2
+    severity_probs: {low:0.7, medium:0.25, high:0.05}
+    los: {low:48.0, medium:96.0, high:168.0}
+staff:
+  nurses_per_patient: {ED:0.2, ICU:1.0, Ward:0.1}
+surge:
+  prob_per_day: 0.05
+  multiplier: 2.5
