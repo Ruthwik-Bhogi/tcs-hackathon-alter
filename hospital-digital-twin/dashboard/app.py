@@ -12,6 +12,7 @@ import threading
 import joblib
 import os
 
+
 st.set_page_config(page_title="Hospital Digital Twin", layout="wide", initial_sidebar_state="expanded")
 st.markdown("<style> .big-font { font-size:20px; } </style>", unsafe_allow_html=True)
 
